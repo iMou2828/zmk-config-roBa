@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans     &trans     &kp LS(LG(S))                                &kp F2         &kp F5          &trans          &trans           &trans
-&trans  &trans  &trans     &trans     &trans         &kp LC(S)      &kp PAGE_UP    &kp HOME       &trans          &kp UP_ARROW    &trans           &trans
-&trans  &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)      &kp LC(A)      &kp PAGE_DOWN  &kp END        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &trans  &trans     &trans     &trans         &trans         &kp DEL        &kp LS(ENTER)                                                   &trans
+&kp ESC           &trans          &trans     &trans     &kp LS(LG(S))                                &kp F2         &kp F5          &trans          &trans           &trans
+&kp TAB           &trans          &trans     &trans     &trans         &kp LC(S)      &kp PAGE_UP    &kp HOME       &mkp MB1        &kp UP_ARROW    &mkp MB2         &trans
+&kp LEFT_ALT      &trans          &kp LC(X)  &kp LC(C)  &kp LC(V)      &kp LC(A)      &kp PAGE_DOWN  &kp END        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LWIN   &trans     &trans         &trans         &kp DEL        &kp LS(ENTER)                                                   &trans
             >;
         };
 
