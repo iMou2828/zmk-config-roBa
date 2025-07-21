@@ -114,14 +114,5 @@
 &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LS(N0)        &trans            &trans            &trans              &trans               &trans                                                            &kp ESC
             >;
         };
-
-        MOUSE {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
-            >;
-        };
     };
 };
