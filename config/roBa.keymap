@@ -83,7 +83,7 @@
 &kp Q      &kp W       &kp E     &kp R                          &kp T                                                              &kp Y                 &kp U  &lt 5 I    &kp O    &kp P
 &kp A      &kp S       &kp D     &kp F                          &kp G        &kp F10                          &kp LA(LEFT_ARROW)   &kp H                 &kp J  &kp K      &kp L    &lt 5 MINUS
 &kp Z      &kp X       &kp C     &kp V                          &kp B        &kp F7                           &kp LA(RIGHT_ARROW)  &kp N                 &kp M  &kp COMMA  &kp DOT  &lt 5 SLASH
-&kp LCTRL  &kp LSHIFT  &kp LWIN  &lt_to_layer_0 5 INT_MUHENKAN  &lt 3 SPACE  &lt_to_layer_0 2 INT_HENKAN      &kp BACKSPACE        &mt LEFT_SHIFT ENTER                             &kp ESC
+&kp LCTRL  &kp LSHIFT  &kp LWIN  &lt_to_layer_0 5 INT_MUHENKAN  &lt 1 SPACE  &lt_to_layer_0 2 INT_HENKAN      &kp BACKSPACE        &mt LEFT_SHIFT ENTER                             &kp ESC
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp F1            &kp F2      &kp F3     &kp F4     &kp F5                                   &kp F6         &kp F7          &kp F8          &kp F9           &kp F10
+&kp TAB           &none       &none      &kp LC(A)  &kp LC(S)  &kp LG(LS(S))      &kp LC(Z)  &kp PAGE_UP    &mkp MB1        &kp UP_ARROW    &mkp MB2         &none
+&kp LALT          &none       &kp LC(X)  &kp LC(C)  &kp LC(V)  &none              &kp LC(Y)  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp HOME
+&kp LEFT_CONTROL  &kp LSHIFT  &kp LWIN   &trans     &trans     &trans             &kp DEL    &kp LS(ENTER)                                                   &kp END
             >;
         };
 
